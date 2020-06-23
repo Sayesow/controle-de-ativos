@@ -1,0 +1,91 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78c19;
+    text-decoration: underline;
+
+}
+
+form {
+    margin: 40px 5px;
+}
+
+form label {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+.enviar {
+    width: 25%;
+    padding: 15px 0;
+    background: orange;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+table {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 50%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            text-align: center;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+
+}
+
+footer {
+    text-align: center;
+    background: #bbbbbb;
+    padding: 50px;
+}
+.imagem-mercado {
+    width: 10%;
+}
+.copyright { 
+    color: #000000;
+    font-size: 13px;
+    margin: 15px 0 0;
+}
